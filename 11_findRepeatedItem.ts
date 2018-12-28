@@ -9,6 +9,7 @@ export function repeatedItemForLoop<T>(array: T[]): T {
 }
 
 // algorithm with a specific data structure: the Set
+// Set checks object uniqueness
 function repeatedItem<T>(array: T[]): T {
 	const set = new Set<T>();
 	for (const item of array) {
