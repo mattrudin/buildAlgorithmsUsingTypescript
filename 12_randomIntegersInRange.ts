@@ -1,4 +1,4 @@
 // Return a random integer >=start and <=end
-function randomInt(start: number, end: number): number {
+export function randomInt(start: number, end: number): number {
 	return start + Math.floor(Math.random() * (end - start));
 }
